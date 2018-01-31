@@ -1,7 +1,8 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.longyuan.menutest.TestFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -9,16 +10,18 @@
 
 
     <TextView
+        android:id="@+id/textView_html"
+        android:layout_marginLeft="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="top"
         android:text="@string/hello_blank_fragment" />
 
     <TextView
+        android:id="@+id/textView_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
+        android:layout_gravity="center_vertical"
         android:text="@string/hello_blank_fragment" />
 
 
-</FrameLayout>
+</LinearLayout>
